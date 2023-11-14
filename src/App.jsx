@@ -15,6 +15,9 @@ const App = () => {
           <Route path="/cart" element={<Cart/>}  />
        </Routes>
 
+       <div className=" flex flex-wrap items-center justify-center font-bold text-md mt-5 mb-5 md:text-3xl " >
+          <p>Made with ❤️ - Vivek Chaudhary</p>
+      </div>
 
     </div>
   );

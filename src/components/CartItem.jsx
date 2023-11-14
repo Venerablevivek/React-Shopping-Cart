@@ -20,7 +20,7 @@ const CartItem = ({item, itemIndex}) => {
         <div className="flex flex-col md:flex-row p-0 md:p-3 gap-5 items-center " >
 
            <div className="w-[30%]" >
-            <img src={item.image} className="w-full h-full" />
+            <img src={item.image} alt="Item_Image" className="w-full h-full" />
            </div>
 
            <div className="md:ml-10 self-start space-y-5 w-[100%] md:w-[70%]" >
